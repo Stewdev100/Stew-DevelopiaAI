@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
+use App\Http\Controllers\Controller;
 
 class ChatController extends Controller
 {
@@ -15,6 +16,7 @@ class ChatController extends Controller
      */
     public function handle(Request $request)
     {
+        dd(' admin ChatController');
         // Log the incoming message for debugging
         Log::info('Chat message received', [
             'message' => $request->input('message'),

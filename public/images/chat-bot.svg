@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <style>
+    .primary { fill: #4F46E5; }
+    .secondary { fill: #818CF8; }
+    .accent { fill: #C7D2FE; }
+    .dark { fill: #1E293B; }
+  </style>
+  <rect width="800" height="600" fill="#0F172A" />
+  <g transform="translate(100, 100)">
+    <!-- Robot Head -->
+    <circle cx="300" cy="150" r="100" class="primary" />
+    <circle cx="300" cy="150" r="90" class="dark" />
+    
+    <!-- Robot Eyes -->
+    <circle cx="270" cy="130" r="15" class="secondary" />
+    <circle cx="330" cy="130" r="15" class="secondary" />
+    <circle cx="270" cy="130" r="7" class="accent" />
+    <circle cx="330" cy="130" r="7" class="accent" />
+    
+    <!-- Robot Antenna -->
+    <rect x="295" y="50" width="10" height="30" class="primary" />
+    <circle cx="300" cy="40" r="10" class="secondary" />
+    
+    <!-- Robot Mouth -->
+    <path d="M270,180 Q300,200 330,180" stroke="#818CF8" stroke-width="5" fill="none" />
+    
+    <!-- Chat Bubbles -->
+    <g transform="translate(100, 300)">
+      <!-- User Message -->
+      <rect x="0" y="0" width="200" height="60" rx="20" class="secondary" />
+      <text x="20" y="35" font-family="Arial" font-size="16" fill="white">How can I help you today?</text>
+      
+      <!-- Bot Response -->
+      <rect x="250" y="50" width="250" height="80" rx="20" class="primary" />
+      <text x="270" y="85" font-family="Arial" font-size="16" fill="white">I'm your AI assistant. I can</text>
+      <text x="270" y="110" font-family="Arial" font-size="16" fill="white">answer questions and help you!</text>
+    </g>
+    
+    <!-- Connection Lines -->
+    <path d="M300,250 L100,330 L250,380" stroke="#818CF8" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+    <path d="M300,250 L500,330 L350,380" stroke="#818CF8" stroke-width="3" fill="none" stroke-dasharray="5,5" />
+    
+    <!-- Data Nodes -->
+    <circle cx="100" cy="330" r="10" class="secondary" />
+    <circle cx="500" cy="330" r="10" class="secondary" />
+    <circle cx="250" cy="380" r="10" class="secondary" />
+    <circle cx="350" cy="380" r="10" class="secondary" />
+  </g>
+</svg> 

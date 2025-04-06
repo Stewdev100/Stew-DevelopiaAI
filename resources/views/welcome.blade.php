@@ -35,8 +35,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <!-- Storyset illustration - AI Chat -->
-                    <img src="/images/hero.svg" alt="AI Chat Illustration" class="w-full h-auto animate-float">
+                    <!-- Local SVG illustration - AI Chat -->
+                    <img src="{{ asset('images/ai-chat.svg') }}" alt="AI Chat Illustration" class="w-full h-auto animate-float">
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@
                     <div class="w-14 h-14 bg-gradient-to-br from-blue-500/20 to-indigo-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-7 h-7 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"/>
-                        </svg>
+                                    </svg>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">24/7 Instant Support</h3>
                     <p class="text-gray-300">Always available to answer customer queries, track orders, and resolve issues instantly.</p>
@@ -66,7 +66,7 @@
                     <div class="w-14 h-14 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-7 h-7 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-                        </svg>
+                                    </svg>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Custom Knowledge Base</h3>
                     <p class="text-gray-300">Train the bot with your specific FAQs, documentation, and product information.</p>
@@ -77,7 +77,7 @@
                     <div class="w-14 h-14 bg-gradient-to-br from-green-500/20 to-teal-500/20 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                         <svg class="w-7 h-7 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                        </svg>
+                    </svg>
                     </div>
                     <h3 class="text-xl font-semibold mb-2">Smart RAG Integration</h3>
                     <p class="text-gray-300">Powered by advanced RAG technology for accurate, context-aware responses.</p>
@@ -118,8 +118,8 @@
                     </div>
                 </div>
                 <div class="bg-gray-700/30 backdrop-blur-sm p-8 rounded-xl border border-gray-600/30">
-                    <!-- unDraw illustration - Chat Bot -->
-                    <img src="https://cdn.jsdelivr.net/gh/unDraw/illustrations@master/svg/chat_bot.svg" alt="Chat Bot Illustration" class="w-full h-auto" style="filter: invert(1) hue-rotate(180deg);">
+                    <!-- Local SVG illustration - Chat Bot -->
+                    <img src="{{ asset('images/chat-bot.svg') }}" alt="Chat Bot Illustration" class="w-full h-auto">
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@
                     <div class="text-center">
                         <svg class="w-16 h-16 text-gray-400 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-                        </svg>
+                    </svg>
                         <p class="text-gray-300">Chat widget demo coming soon</p>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
             </a>
         </div>
     </div>
-</div>
+        </div>
 
 <style>
     @keyframes float {

@@ -189,4 +189,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 🤝 Support
 
-For support, email support@developia-ai.com or join our [Discord community](https://discord.gg/developia-ai).
+For support, email support@developia-ai.com / opiaaustin@gmail.com or join our [Discord community](https://discord.gg/FQhNPxDr7v).

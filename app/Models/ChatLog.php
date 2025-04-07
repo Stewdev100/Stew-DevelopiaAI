@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Models\Faq;
 use App\Models\Order;
+use App\Models\Tenant;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -19,6 +20,14 @@ class ChatLog extends Model
         'faq_id',
         'order_id'
     ];
+
+    /**
+     * Get the tenant that owns the chat log
+     */
+    public function tenant(): BelongsTo
+    {
+        return $this->belongsTo(Tenant::class, 'tenant_id', 'slug');
+    }
 
     /**
      * Get the FAQ that was referenced in this chat

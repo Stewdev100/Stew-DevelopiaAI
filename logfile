@@ -1,0 +1,11 @@
+2025-04-10 10:08:45.353 EDT [14162] LOG:  starting PostgreSQL 14.17 (Homebrew) on x86_64-apple-darwin23.6.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-10 10:08:45.361 EDT [14162] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-10 10:08:45.361 EDT [14162] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-10 10:08:45.368 EDT [14162] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-10 10:08:45.376 EDT [14163] LOG:  database system was shut down at 2025-04-10 10:08:39 EDT
+2025-04-10 10:08:45.385 EDT [14162] LOG:  database system is ready to accept connections
+2025-04-10 12:15:43.214 EDT [19734] FATAL:  role "root" does not exist
+2025-04-12 15:23:29.155 EDT [14162] LOG:  received smart shutdown request
+2025-04-12 15:23:29.157 EDT [14162] LOG:  background worker "logical replication launcher" (PID 14169) exited with exit code 1
+2025-04-12 15:23:29.157 EDT [14164] LOG:  shutting down
+2025-04-12 15:23:29.166 EDT [14162] LOG:  database system is shut down

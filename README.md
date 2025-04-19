@@ -52,7 +52,7 @@ DevelopiaAI is an AI‑powered Customer Service Chatbot you can embed in any web
    ```
 
 4. **Configure your .env file**
-   ```env
+   ```env 
    APP_NAME=DevelopiaAI
    APP_ENV=local
    APP_DEBUG=true
